@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
+"""function writes a string."""
+
 
 def write_file(filename="", text=""):
-    with open(filename, "w", encoding="UTF-8") as f:
+    """writes files"""
+
+    with open(filename, 'w', encoding="utf-8") as f:
         return f.write(text)
